@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang='fr'>
+<head>
+  <meta charset='utf-8' />
+  <meta name='viewport' content='width=device-width, initial-scale=1' />
+  <title>CheckStyle - Analyse Python</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      margin: 24px;
+      line-height: 1.35;
+    }
+    h1 { font-size: 20px; margin: 0 0 6px 0; }
+    .meta { opacity: 0.75; margin: 0 0 18px 0; font-size: 13px; }
+    .badge {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(127,127,127,0.35);
+      font-size: 13px;
+      margin: 10px 0 16px 0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      border: 1px solid rgba(127,127,127,0.35);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    thead th {
+      position: sticky;
+      top: 0;
+      background: rgba(127,127,127,0.12);
+      backdrop-filter: blur(4px);
+      text-align: left;
+      font-weight: 600;
+      font-size: 12px;
+      padding: 10px 10px;
+      border-bottom: 1px solid rgba(127,127,127,0.35);
+      white-space: nowrap;
+    }
+    tbody td {
+      padding: 10px 10px;
+      border-bottom: 1px solid rgba(127,127,127,0.2);
+      font-size: 13px;
+      vertical-align: top;
+    }
+    tbody tr:nth-child(even) { background: rgba(127,127,127,0.06); }
+    td.details { min-width: 240px; }
+    details summary { cursor: pointer; user-select: none; }
+    pre {
+      white-space: pre-wrap;
+      word-break: break-word;
+      padding: 10px;
+      border-radius: 10px;
+      border: 1px solid rgba(127,127,127,0.25);
+      background: rgba(127,127,127,0.08);
+      margin: 8px 0 0 0;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-size: 12px;
+    }
+    .raw { margin-top: 16px; }
+  </style>
+</head>
+<body>
+  <h1>CheckStyle - Analyse Python</h1>
+  <p class='meta'>Généré le 2026-11-01 18:36:50</p>
+  <div class='badge'>Global grade = 5 / 5</div>
+
+  <table>
+    <thead><tr><th scope='col'>Fichier</th><th scope='col'>Note / 5</th><th scope='col'>Classes</th><th scope='col'>Subs</th><th scope='col'>Fonctions</th><th scope='col'>Lignes</th><th scope='col'>Lignes vides</th><th scope='col'>Lignes sans com.</th><th scope='col'>Privées</th><th scope='col'>Fonctions non typées</th><th scope='col'>Params func non typés</th><th scope='col'>Params sub non typés</th><th scope='col'>Profondeur max</th><th scope='col'>Max lignes / méthode</th><th scope='col'>Détails</th></tr></thead>
+    <tbody><tr><td>etudes.py</td><td>5</td><td></td><td>6</td><td>21</td><td>324</td><td>73</td><td>17</td><td>13</td><td></td><td></td><td></td><td>4</td><td>16</td><td class='details'></td></tr><tr><td>excel_interface.py</td><td>5</td><td></td><td>4</td><td>16</td><td>237</td><td>49</td><td>18</td><td>14</td><td></td><td></td><td></td><td>3</td><td>19</td><td class='details'></td></tr><tr><td>tests_tree.py</td><td>5</td><td>1</td><td>6</td><td>2</td><td>65</td><td>18</td><td>11</td><td></td><td></td><td></td><td></td><td>2</td><td>6</td><td class='details'></td></tr><tr><td>tree.py</td><td>5</td><td>8</td><td>19</td><td>55</td><td>613</td><td>142</td><td>18</td><td>27</td><td></td><td></td><td></td><td>3</td><td>19</td><td class='details'></td></tr><tr><td>visualisation.py</td><td>5</td><td>2</td><td>17</td><td>16</td><td>281</td><td>43</td><td>19</td><td>24</td><td></td><td></td><td></td><td>5</td><td>17</td><td class='details'></td></tr></tbody>
+  </table>
+
+  <details class='raw'><summary>Afficher l'output texte (copie)</summary><pre>etudes.py: numbSubs: 6, numbFunctions: 21, numbLines: 324, numbEmptyLines: 73, numbLinesNoComment: 17, numbPrivate: 13, maxDepth: 4, maxLineByMethod: 16, globalGrade: 5.0
+excel_interface.py: numbSubs: 4, numbFunctions: 16, numbLines: 237, numbEmptyLines: 49, numbLinesNoComment: 18, numbPrivate: 14, maxDepth: 3, maxLineByMethod: 19, globalGrade: 5.0
+tests_tree.py: numbClasses: 1, numbSubs: 6, numbFunctions: 2, numbLines: 65, numbEmptyLines: 18, numbLinesNoComment: 11, maxDepth: 2, maxLineByMethod: 6, globalGrade: 5.0
+tree.py: numbClasses: 8, numbSubs: 19, numbFunctions: 55, numbLines: 613, numbEmptyLines: 142, numbLinesNoComment: 18, numbPrivate: 27, maxDepth: 3, maxLineByMethod: 19, globalGrade: 5.0
+visualisation.py: numbClasses: 2, numbSubs: 17, numbFunctions: 16, numbLines: 281, numbEmptyLines: 43, numbLinesNoComment: 19, numbPrivate: 24, maxDepth: 5, maxLineByMethod: 17, globalGrade: 5.0
+Global grade = 5.0 / 5</pre></details>
+</body>
+</html>
